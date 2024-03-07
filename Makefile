@@ -214,7 +214,8 @@ COMMON_OBJS := \
     $(SRC_DIR)/version.o          \
     $(SRC_DIR)/zone.o             \
     $(SRC_DIR)/pmove.o            \
-    $(SRC_DIR)/pmovetst.o
+    $(SRC_DIR)/pmovetst.o         \
+    $(SRC_DIR)/rcmd.o
 
 SERVER_OBJS := \
     $(SRC_DIR)/pr_cmds.o \
