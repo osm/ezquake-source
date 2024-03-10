@@ -1753,18 +1753,6 @@
     "description": "Clears the currently selected sandbox directory. On the next restart, ezQuake will prompt you to select a directory again.",
     "remarks": "macOS only"
   },
-  "tcl_eval": {
-    "description": "Execute <string> as Tcl code.",
-    "syntax": "<string>"
-  },
-  "tcl_exec": {
-    "description": "Execute a config as Tcl script.",
-    "syntax": "<filename>"
-  },
-  "tcl_proc": {
-    "description": "Execute a Tcl procedure <name> with parameters <parameters>. Procedure must be defined before thru tcl_eval or tcl_exec commands.",
-    "syntax": "<name> [parameters]"
-  },
   "tcpconnect": {
     "arguments": [
       {
