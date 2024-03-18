@@ -254,6 +254,9 @@
     <ClCompile Include="qtv.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="rcmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="rulesets.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -1400,6 +1403,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="qwsvdef.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rcmd.h">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="rulesets.h">

@@ -195,7 +195,8 @@ COMMON_OBJS := \
     version.o          \
     zone.o             \
     pmove.o            \
-    pmovetst.o
+    pmovetst.o         \
+    rcmd.o
 
 SERVER_OBJS := \
     pr_cmds.o \

@@ -2410,6 +2410,7 @@ msversion.bat</Command>
     </ClCompile>
     <ClCompile Include="qtv.c" />
     <ClCompile Include="q_shared.c" />
+    <ClCompile Include="rcmd.c" />
     <ClCompile Include="rulesets.c" />
     <ClCompile Include="r_aliasmodel.c" />
     <ClCompile Include="r_aliasmodel_md3.c" />
@@ -3333,6 +3334,7 @@ msversion.bat</Command>
     <ClInclude Include="quakedef.h" />
     <ClInclude Include="qwsvdef.h" />
     <ClInclude Include="q_shared.h" />
+    <ClInclude Include="rcmd.h" />
     <ClInclude Include="render.h" />
     <ClInclude Include="rulesets.h" />
     <ClInclude Include="r_aliasmodel.h" />
