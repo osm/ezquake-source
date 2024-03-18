@@ -477,6 +477,12 @@ qbool CL_CheckOrDownloadFile(char *filename)
 {
 	vfsfile_t *f;
 	char *tmp;
+	extern cvar_t cl_allow_downloads;
+
+	if (!cl_allow_downloads.integer)
+	{
+		return true;
+	}
 
 	if (strstr(filename, "..") || !strcmp(filename, "") || filename[0] == '/' || strchr(filename, '\\') || strchr(filename, ':') || strstr(filename, "//")) {
 		Com_Printf("Warning: Invalid characters in filename \"%s\"\n", filename);
