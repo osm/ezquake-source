@@ -279,7 +279,7 @@ cvar_t cl_debug_weapon_view     = { "cl_debug_weapon_view", "0" };
 // The following aliases and commands are required to allow KTX to work properly.
 #define KTX	"bf,changing,cmd ack,cmd new,cmd pext,cmd prespawn,cmd snap,cmd spawn,color,fullserverinfo," \
 		"infoset,ktx_infoset,ktx_sinfoset,nextul,on_enter,on_enter_ctf,on_enter_ffa,on_spec_enter,"  \
-		"on_spec_enter_ctf,on_spec_enter_ffa,packet,play,reconnect,say,sinfoset,skin,skins,team"
+		"on_spec_enter_ctf,on_spec_enter_ffa,packet,play,reconnect,say,sinfoset,skin,skins,team,track"
 
 static void KTX_Init_f(void);
 
