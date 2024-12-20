@@ -3267,7 +3267,7 @@ static void KTX_Init_f(void)
 	Cbuf_AddTextEx(&cbuf_main, "systemalias ksound5 cmd ksound5\n");
 	Cbuf_AddTextEx(&cbuf_main, "systemalias ksound6 cmd ksound6\n");
 	Cbuf_AddTextEx(&cbuf_main, "systemalias kuinfo cmd kuinfo %0\n");
-	Cbuf_AddTextEx(&cbuf_main, "systemalias lastscores cmd lastscores %0\n");
+	Cbuf_AddTextEx(&cbuf_main, "systemalias lastscores cmd lastscoresktx %0\n");
 	Cbuf_AddTextEx(&cbuf_main, "systemalias laststats cmd laststats\n");
 	Cbuf_AddTextEx(&cbuf_main, "systemalias lgcmode cmd lgcmode\n");
 	Cbuf_AddTextEx(&cbuf_main, "systemalias list cmd list\n");
