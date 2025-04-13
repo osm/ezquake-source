@@ -1857,7 +1857,7 @@ static int NET_PortPingProbeOrchestrator(void *data)
 {
 	portpingprobe_orchestrator_args_t *args = (portpingprobe_orchestrator_args_t *)data;
 	portpingprobe_status_t status = PORTPINGPROBE_READY;
-	portpingprobe_t *results;
+	portpingprobe_t *results = NULL;
 	SDL_Thread **workers = NULL;
 	struct sockaddr_in addr;
 	netadr_t net_addr;
@@ -1939,11 +1939,7 @@ static int NET_PortPingProbeOrchestrator(void *data)
 	status = PORTPINGPROBE_COMPLETED;
 
 cleanup:
-	if (workers != NULL)
-	{
-		Q_free(workers);
-	}
-
+	Q_free(workers);
 	Q_free(results);
 	Q_free(args->target_addr);
 	Q_free(args->original_addr);
